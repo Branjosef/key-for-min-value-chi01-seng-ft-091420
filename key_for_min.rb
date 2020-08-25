@@ -3,9 +3,10 @@
 
 def key_for_min_value(name_hash)
 
-test = name_hash.min_by{|k,v| v}
+test = [name_hash]
 if test.class != NilClass
-  test[0]
+  test2 = test[0].min_by{|k,v| v}
+  test2[0]
 end
 
 end
