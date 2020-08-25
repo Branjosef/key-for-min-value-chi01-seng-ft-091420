@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
 
-test = hash.min_by{|k,v| v}
+test = name_hash.min_by{|k,v| v}
 if test.class != NilClass
   test[0]
 end
