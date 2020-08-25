@@ -8,6 +8,8 @@ if name_hash.class != NilClass
   test = name_hash.max_by{|k,v| v}
   name_hash.delete(test[0])
   end
+  r = name_hash.to_a 
+  r[0][0]
 end
-name_hash
+
 end
