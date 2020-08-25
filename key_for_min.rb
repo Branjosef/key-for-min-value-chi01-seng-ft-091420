@@ -7,5 +7,5 @@ while name_hash.length != 1
 test = name_hash.max_by{|k,v| v}
 name_hash.delete(test[0])
 end
-name_hash.keys
+name_hash
 end
