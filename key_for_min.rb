@@ -4,8 +4,8 @@
 def key_for_min_value(name_hash)
 
 while name_hash.length != 1 
-test = hash.max_by{|k,v| v}
-hash.delete(test[0])
+test = name_hash.max_by{|k,v| v}
+name_hash.delete(test[0])
 end
-hash.keys
+name_hash.keys
 end
